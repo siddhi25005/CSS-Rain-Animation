@@ -1,0 +1,193 @@
+body{
+    background-color:black;
+    height:100vh;
+    display:flex;
+    justify-content: flex-start;
+    gap:70px;
+    overflow:hidden;
+}
+.drop1{
+    height:15px;
+    width:5px;
+    background-color:lightblue;
+    border-radius:50%;
+    position:relative;
+    animation:fall 2s infinite ease-in-out;
+    animation-delay: 0.2s;
+}
+.drop2{
+    height:10px;
+    width:5px;
+    background-color:lightblue;
+    border-radius:50%;
+    position:relative;
+    animation:fall 2s infinite ease-in-out;
+    animation-delay: 0.5s;
+}
+.drop3{
+    height:25px;
+    width:5px;
+    background-color:lightblue;
+    border-radius:50%;
+    position:relative;
+    animation:fall 2s infinite ease-in-out;
+    animation-delay: 0.3s;
+}
+.drop4{
+    height:5px;
+    width:5px;
+    background-color:lightblue;
+    border-radius:50%;
+    position:relative;
+    animation:fall 2s infinite ease-in-out;
+    animation-delay: 0.2s;
+}
+.drop5{
+    height:15px;
+    width:5px;
+    background-color:lightblue;
+    border-radius:50%;
+    position:relative;
+    animation:fall 2s infinite ease-in-out;
+    animation-delay: 0.3s;
+}
+.drop6{
+    height:15px;
+    width:5px;
+    background-color:lightblue;
+    border-radius:50%;
+    position:relative;
+    animation:fall 2s infinite ease-in-out;
+    animation-delay: 0.2s;
+}
+.drop7{
+    height:10px;
+    width:5px;
+    background-color:lightblue;
+    border-radius:50%;
+    position:relative;
+    animation:fall 2s infinite ease-in-out;
+    animation-delay: 0.5s;
+}
+.drop8{
+    height:25px;
+    width:5px;
+    background-color:lightblue;
+    border-radius:50%;
+    position:relative;
+    animation:fall 2s infinite ease-in-out;
+    animation-delay: 0.3s;
+}
+.drop9{
+    height:5px;
+    width:5px;
+    background-color:lightblue;
+    border-radius:50%;
+    position:relative;
+    animation:fall 2s infinite ease-in-out;
+    animation-delay: 0.2s;
+}
+.drop10{
+    height:15px;
+    width:5px;
+    background-color:lightblue;
+    border-radius:50%;
+    position:relative;
+    animation:fall 2s infinite ease-in-out;
+    animation-delay: 0.3s;
+}
+.drop11{
+    height:15px;
+    width:5px;
+    background-color:lightblue;
+    border-radius:50%;
+    position:relative;
+    animation:fall 5s infinite ease-in-out;
+    animation-delay: 0.2s;
+}
+.drop12{
+    height:10px;
+    width:5px;
+    background-color:lightblue;
+    border-radius:50%;
+    position:relative;
+    animation:fall 2s infinite ease-in-out;
+    animation-delay: 0.5s;
+}
+.drop13{
+    height:25px;
+    width:5px;
+    background-color:lightblue;
+    border-radius:50%;
+    position:relative;
+    animation:fall 10s infinite ease-in-out;
+    animation-delay: 0.3s;
+}
+.drop14{
+    height:5px;
+    width:5px;
+    background-color:lightblue;
+    border-radius:50%;
+    position:relative;
+    animation:fall 3s infinite ease-in-out;
+    animation-delay: 0.2s;
+}
+.drop15{
+    height:15px;
+    width:5px;
+    background-color:lightblue;
+    border-radius:50%;
+    position:relative;
+    animation:fall 4s infinite ease-in-out;
+    animation-delay: 0.3s;
+}
+.drop16{
+    height:15px;
+    width:5px;
+    background-color:lightblue;
+    border-radius:50%;
+    position:relative;
+    animation:fall 1s infinite ease-in-out;
+    animation-delay: 0.2s;
+}
+.drop17{
+    height:10px;
+    width:5px;
+    background-color:lightblue;
+    border-radius:50%;
+    position:relative;
+    animation:fall 8s infinite ease-in-out;
+    animation-delay: 0.5s;
+}
+.drop18{
+    height:25px;
+    width:5px;
+    background-color:lightblue;
+    border-radius:50%;
+    position:relative;
+    animation:fall 6s infinite ease-in-out;
+    animation-delay: 0.3s;
+}
+.drop19{
+    height:5px;
+    width:5px;
+    background-color:lightblue;
+    border-radius:50%;
+    position:relative;
+    animation:fall 5s infinite ease-in-out;
+    animation-delay: 0.2s;
+}
+.drop20{
+    height:15px;
+    width:5px;
+    background-color:lightblue;
+    border-radius:50%;
+    position:relative;
+    animation:fall 2s infinite ease-in-out;
+    animation-delay: 0.3s;
+}
+@keyframes fall {
+    0%{transform: translateY(0px);}
+    100%{transform:translateY(100vh);}
+    
+}
